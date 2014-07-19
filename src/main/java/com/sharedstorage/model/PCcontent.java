@@ -1,7 +1,7 @@
-package ua.com.bp.model;
+package com.sharedstorage.model;
 
-import ua.com.bp.utils.ChangePath;
-import ua.com.bp.utils.MakeHTML;
+import com.sharedstorage.utils.ChangePath;
+import com.sharedstorage.utils.MakeHTML;
 
 import java.io.File;
 import java.util.LinkedList;

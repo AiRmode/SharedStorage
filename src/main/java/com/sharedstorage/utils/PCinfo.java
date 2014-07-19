@@ -1,4 +1,4 @@
-package ua.com.bp.utils;
+package com.sharedstorage.utils;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

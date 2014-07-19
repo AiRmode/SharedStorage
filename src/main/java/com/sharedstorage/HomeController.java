@@ -1,4 +1,4 @@
-package ua.com.bp;
+package com.sharedstorage;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,8 +7,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import ua.com.bp.model.PCcontent;
-import ua.com.bp.utils.*;
+import com.sharedstorage.model.PCcontent;
+import com.sharedstorage.utils.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -22,7 +22,7 @@ public class HomeController {
 	
 //	public static String adress="http://localhost:8080/my-WiStore";// //SpringA
 //	public static String adressImg="http://localhost:8080";
-	public static String adress="http://"+PCinfo.getLocalIP()+":8080/my-WiStore";// //SpringA
+	public static String adress="http://"+PCinfo.getLocalIP()+":8080/ss";// //SpringA
 //	public static String adressImg="http://"+PCinfo.getLocalIP()+":8080";
 
 //	for testing on jetty plugin.

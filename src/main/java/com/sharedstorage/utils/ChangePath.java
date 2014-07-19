@@ -1,4 +1,4 @@
-package ua.com.bp.utils;
+package com.sharedstorage.utils;
 
 public class ChangePath {
 	

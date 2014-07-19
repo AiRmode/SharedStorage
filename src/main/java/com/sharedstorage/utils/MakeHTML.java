@@ -1,6 +1,6 @@
-package ua.com.bp.utils;
+package com.sharedstorage.utils;
 
-import ua.com.bp.HomeController;
+import com.sharedstorage.HomeController;
 
 /**
  *Here we will make HTML lines from simple strings 

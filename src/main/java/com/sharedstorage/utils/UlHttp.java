@@ -1,11 +1,11 @@
-package ua.com.bp.utils;
+package com.sharedstorage.utils;
 
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ua.com.bp.HomeController;
+import com.sharedstorage.HomeController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

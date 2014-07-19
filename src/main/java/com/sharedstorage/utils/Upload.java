@@ -1,4 +1,4 @@
-package ua.com.bp.utils;
+package com.sharedstorage.utils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

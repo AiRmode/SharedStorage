@@ -2,11 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>ua.com</groupId>
-	<artifactId>my</artifactId>
-	<name>SpringAnnotation</name>
+	<groupId>com.sharedstorage</groupId>
+	<artifactId>SharedStorage</artifactId>
 	<packaging>war</packaging>
-	<version>WiStore</version>
+	<version>1.0</version>
 	<properties>
 		<java-version>1.7</java-version>
 		<org.springframework-version>3.1.1.RELEASE</org.springframework-version>
@@ -183,7 +182,7 @@
 						<phase>package</phase>
 						<configuration>
 							<tasks>
-								<copy file="./target/my-WiStore.war" tofile="./pkgs/apache-tomcat-6.0.26/webapps/my-WiStore.war" />
+								<copy file="./target/SharedStorage-1.0.war" tofile="./pkgs/apache-tomcat-6.0.26/webapps/ss.war" />
 							</tasks>
 						</configuration>
 						<goals>
